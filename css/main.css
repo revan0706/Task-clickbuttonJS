@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+header {
+  width: 100%;
+  display: flex;
+  background-color: #f44336;
+}
+header a {
+  padding: 12px;
+  text-decoration: none;
+  color: #f1f1f1;
+  padding: 18px;
+}
+header a.icon {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+header a:hover {
+  background-color: white;
+  color: black;
+}
+header div.list {
+  padding: 18px;
+}
+header div.list > a {
+}
+
+header div.list2 {
+    position: absolute;
+    top: 54.4px;
+    width: 100%;
+    display: flex;
+    display: none;
+  flex-direction: column;
+  background-color: blue;
+}
+@media (max-width: 600px) {
+  header div.list {
+    display: none;
+  }
+  header a.icon {
+    display: block;
+  }
+}
